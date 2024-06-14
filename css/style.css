@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    background-image: url(../img/5bc26c68ca643a35ff2e403f_scott-webb-268893-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat,repeat;
+}
+.home .home-nav{
+background-color: white;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+padding: 20px 0px;
+z-index: 10;
+}
+.home .home-nav .contenir
+{
+    width: 90%;
+    margin: auto;
+
+}
+.home .home-nav .contenir h3
+{
+    float: left;
+    font-size:25px ;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.home .home-nav .contenir ul 
+{ 
+    float: right ;
+    list-style: none;
+
+}
+.home .home-nav .contenir ul li 
+{
+    float: left;
+    padding: 0px  8px;
+}
+.home .home-nav .contenir ul li a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 20px;
+}
+.home .home-nav .contenir ul li a:hover
+{
+    color: black;
+}
+.clr
+{
+    clear: both;
+}
+.home .home-continer
+{
+    padding: 250px 0px;
+}
+.home .home-continer .home-contine-left{
+    margin-left: 5% ;
+    width: 45%;
+    float: left;
+}
+.home .home-continer .home-contine-left .pompeo
+{
+    color: lightcoral;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.home .home-continer .home-contine-left h1
+{
+font-size: 48px;
+}
+.home .home-continer .home-contine-left p {
+    color: dimgray;
+    ;
+}
+.home .home-continer .home-contine-left button
+{
+    margin-top: 30px;
+background-color: firebrick;
+color: white;
+padding: 20px 40px;
+}
+.home .home-continer .home-contine-left button:hover
+{
+    background-color: black;
+}
+.home-contine-right{
+    float: left;
+   width: 50%;
+   
+   
+}
+.home-contine-right img{
+    width: 100%;
+}
+.Content
+{
+   width: 90%;
+    margin: 20px auto;
+    padding: 50px 0px;
+}
+
+.Content p{
+    color: lightcoral;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 14px;
+  
+}
+.Content h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.Content .items{
+    width: 65%;
+    margin: auto;
+}
+.Content .items .iteam
+{ 
+   float: left ;
+   width: 33.33%;
+   padding: 5px;
+    
+}
+
+.items .vase{
+    height: 240px;
+    width: 240px;
+    background-color: burlywood;
+    border-radius: 50%;
+    border: 30px solid rgba(0, 0, 0, .05);
+    
+   
+}
+.items .vase img{
+margin-top: 55px;
+margin-left: 55px;
+}
+.items .vase h3{
+    color: white;
+    font-size: 18px;
+margin-left: 67px;
+}
+.items .mug{
+    height: 240px;
+    width: 240px;
+    background-color: #f05b10;
+    border-radius: 50%;
+    border: 30px solid rgba(0, 0, 0, .05);
+    
+}
+.items .mug img{
+margin-top: 55px;
+margin-left: 55px;
+}
+.items .mug h3{
+    color: white;
+    font-size: 18px;
+margin-left: 67px;
+}
+.items .paltes{
+    height: 240px;
+    width: 240px;
+    background-color: #a21010;
+    border-radius: 50%;
+    border: 30px solid rgba(0, 0, 0, .05);
+    
+}
+.items .paltes img{
+    width: 40%;
+margin-top: 55px;
+margin-left: 55px;
+}
+.items .paltes h3{
+    color: white;
+    font-size: 26px;
+margin-left: 67px;
+}
+.sale{
+  margin: 50px 0px;
+}
+.sale .container{
+    width: 90%;
+    margin: auto;
+}
+.sale .container .golds{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.sale .container .gold-img img {
+    width: 50%;
+}
+.sale  .container .golds .gold-img{
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    
+}
+.sale .container .golds .layer{
+   width: 500px;
+   height: 250px;
+background-color: rgba(0, 0, 0, .08);
+position: absolute;
+border-radius: 10px;
+top: 30%;
+left: 15%;
+z-index: -2;
+}
+.sale .golds .gold-content{
+    
+    font-size: 20px;
+
+}
+.sale .golds .gold-content h3{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+  margin-top: 50%;
+  
+}
+.sale .golds .gold-content p{
+    color: dimgray;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.sale .golds .gold-content a{
+    text-decoration: none;
+    color: black;
+ 
+   
+}
+.sale .gold-content a:hover
+{
+ text-decoration: underline;
+}
+
+.sale .container .golds .orange-img {
+    text-align: center;
+    position: relative;
+    z-index: -1;
+   
+}
+
+.sale .container .golds .orange-img img{
+    width: 70%;
+}
+
+.sale .golds .orange-content{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.sale .golds .orange-content h3{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.sale .golds .orange-content p{
+    color: dimgray;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.sale .golds .orange-content a{
+    text-decoration: none;
+    color: black;
+   
+}
+.sale .orange-content a:hover
+{
+ text-decoration: underline;
+}
+
+.shop{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+.shop .online
+{
+    letter-spacing: 3px;
+text-align: center;
+margin-top: 100px;
+color: lightcoral;
+}
+.shop h2 
+{
+    text-align: center;
+    font-size: 67px;
+}
+.shop .shop-iteam{
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+
+
+
+}
+.shop .shop-iteam img{
+    width: 90%;
+   transition: transform 350ms;
+}
+
+.shop .shop-iteams .shop-iteam .shop-img 
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.shop .shop-iteams .shop-iteam .shop-img:hover img{
+    transform: scale(1.1);
+}
+.shop .shop-iteams .shop-iteam .shop-img .shop-layer
+{
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.10);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    opacity: 0;
+    transition: transform 350ms;
+}
+.shop .shop-iteam .shop-img:hover .shop-layer{
+    opacity: 1;
+ transform: scale(1.1);
+}
+
+.shop .shop-iteam a 
+{
+    color: dimgray;
+    text-decoration: none;
+    text-align: left;
+
+}
+.shop .shop-iteam p{
+    font-size: 15px;
+    font-weight: 800;
+    padding: 15px 0;
+    text-align: left;
+ 
+}
+.shop .shop-iteam hr{
+    width: 344px;
+ height: 3px;
+background-color: dimgray;
+}
+.shop .shop-iteam:hover hr{
+
+   background-color: firebrick;
+}
+
+.shop button {
+    background-color: firebrick;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 7%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.shop button:hover
+{
+    background-color: black;
+}
+.start-shop
+{
+    height: 450px;
+    background-image:  url(../img/5bb966fd82df351adbb449c6_raul-cacho-oses-779595-unsplash-p-3200.jpeg);
+    background-size: cover;
+}
+.start-shop .text{
+width: 90%;
+margin: auto;
+}
+.start-shop .text .pottery{
+color: lightcoral;
+letter-spacing: 3px;
+padding-top:200px ;
+}
+.start-shop .text h2{
+    font-size:36px;
+}
+.start-shop .text p {
+font-size: 16px;
+}
+.start-shop .text button{
+    background-color: firebrick;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    margin: 50px 0px;
+}
+.start-shop .text button:hover{
+    background-color: black;
+}
+.new
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.new .img{
+    width: 80px;
+    height: 80px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-left: 48%;
+    margin-bottom: 50px;
+    
+}
+.new .img img{
+    width: 50%;
+    margin-top: 20px;
+}
+.new .new-p{
+color: lightcoral;
+letter-spacing: 3px;
+margin-bottom: 30px;
+}
+.new h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.new .sub{
+    background-image: url(../img/5bb565345d49a44eae2b3545_icons8-secured-letter-64.png) ;
+    background-size: 20px;
+    background-color: rgba(219, 219, 219, .1);
+    background-repeat: no-repeat;
+    background-position: 9px 57%;
+    border-color: #ebebeb;
+    padding-left: 40px;
+    width: 30%;
+    height: 40px;
+    color: dimgray;
+    margin-bottom: 50px;
+}
+.new .sub:focus{
+border: 5px solid aqua;
+}
+.new button{
+    background-color:black ;
+    color: white;
+    padding: 10px 40px;
+}
+.new button:hover{
+    background-color: firebrick;
+    
+}
+.new .check .box{
+    width: 100px;
+    margin-bottom: 150px;
+}
+.new .check span{
+    color: dimgray;
+    position: relative;
+    right: 30px;
+    
+   }
+   .fotter{
+    padding-top: 100px;
+    height: 60vh;
+    background-color: rgba(219, 219, 219, .1);
+    margin: auto;
+    text-align: center;
+   }
+   .fotter .fotter-content{
+    float: left;
+    width: 33.3%;
+    
+   }
+   .fotter .fotter-content img{
+    width: 30px;
+   }
+   .fotter h2{
+    font-family: "Seymour One", sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+   }
+   .fotter p {
+    color: dimgray;
+    margin-top: 10px;
+    margin-bottom:70px ;
+   }
+
+
+   
